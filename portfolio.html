@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leon Lee | CV</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" type="text/css" href="portfolio_styling.css">
+</head>
+
+<body>
+  <!--Photo slideshow-->
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="image/deer.jpg" style="width:100%">
+      <div class="text">OSAKA DEER</div>
+    </div>
+        
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="image/cat.jpg" style="width:100%">
+      <div class="text">STREET CAT</div>
+    </div>
+        
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="image/mountain.jpg" style="width:100%">
+      <div class="text">KAI KUNG LENG</div>
+    </div>
+        
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="leonlee">LEON LEE</div>
+        
+  </div>
+  <br>     
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+  
+  <!--Navbar-->
+  <div id="navbar">
+    <a href="./index.html">ABOUT ME</a>
+    <a href="#">PORTFOLIO</a>
+    <a href="mailto:leonleepingho@gmail.com" class="right">CONTACT ME</a>
+  </div>
+  
+  <!--Content-->
+  <div class="intro">
+    <h1>PORTFOLIO</h1>
+    <h2>Personal project</h2>
+    <p >Including this website, below are some of my personal projects I have done since I started to code.</p>
+  </div>
+  <br>
+  
+  <!--Row of portfolio x 3-->
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="/image/mynotesapp.JPG" alt="My Notes App" style="width:100%">
+        <div class="container">
+          <h2>My Notes App</h2>
+          <p class="title">Python/Django</p>
+          <div id="project_info">
+          <p>My Notes App is a Python web application created by using Django 
+            frame work. App's functions including creat account, sign in and out, 
+            User can also take notes in any folders they have created. All the 
+            notes and folders can be edited and deleted anytime and anywhere.</p>
+          </div>
+          <form action="https://leonlee-my-notes.herokuapp.com/" method="get">
+            <p><button class="button" type="submit">VISIT</button></p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="/image/myweb.JPG" alt="My Website" style="width:100%">
+        <div class="container">
+          <h2>My website</h2>
+          <p class="title">HTML/CSS/JavaScript</p>
+          <div id="project_info">
+          <p>A personal website introducing myself why I started to code including 
+            some of my projects as portfolio. The website is created by using HTML 
+            for content, with CSS and little JavaScript to customize the design that
+            can fit for wide desktop broswer and small smartphone screen. 
+          </p>
+          </div>
+          <form action="https://leonlee603.github.io/" method="get">
+            <p><button class="button" type="submit">VISIT</button></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <img src="/image/github.JPG" alt="My GitHub" style="width:100%">
+        <div class="container">
+          <h2>My GitHub</h2>
+          <p class="title">GitHub</p>
+          <p>My GitHub contain some basic Python projects like "Hangman" and "Number Guessing".
+            Which help me to understand some basic concepts by practice.
+          </p>
+          <form action="https://github.com/leonlee603" method="get">
+            <p><button class="button" type="submit">VISIT</button></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+  <div class="footer">
+    <p>© 2020 All Rights Reserved.</p>
+  </div>
+  
+  <script src="stickyNavbar.js"></script> 
+  <script src="slideshow.js"></script>  
+</body>
+</html>
