@@ -25,6 +25,5 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-// try to reserve the space for responsive picture
 var windowWidth = document.windowWidth();
 document.querySelector(".mySlides img").setAttribute("width", "windowWidth")
