@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leon Lee | CV</title>
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <link rel="stylesheet" type="text/css" href="css/portfolio_styling.css">
+</head>
+
+<body>
+  <!-- *************** Photo slideshow *************** -->
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="image/deer.jpg" alt="OSAKA DEER" width="100%">
+      <div class="text">OSAKA DEER</div>
+    </div>
+        
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="image/cat.jpg" alt="STREET CAT" width="100%">
+      <div class="text">STREET CAT</div>
+    </div>
+        
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="image/mountain.jpg" alt="KAI KUNG LENG" width="100%">
+      <div class="text">KAI KUNG LENG</div>
+    </div>
+        
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="leonlee">LEON LEE</div>
+        
+  </div>
+      
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+  
+  <!-- *************** Navbar *************** -->
+  <div id="navbar">
+    <a href="./index.html">ABOUT ME</a>
+    <a href="#">PORTFOLIO</a>
+    <a href="mailto:leonleepingho@gmail.com" class="right">CONTACT</a>
+  </div>
+  
+  <!-- *************** Content *************** -->
+  <div class="intro">
+    <h1>PORTFOLIO</h1>
+    <h2>Personal project</h2>
+    <p >Below are some of my personal projects I have done since I started to code.</p>
+  </div>
+  <br>
+  
+  <!--Row of portfolio - column x 3-->
+  <div class="project-row">
+    <!-- BMI Calculator -->
+    <div class="column">
+      <div class="card">
+        <img src="image/bmicalculator.jpg" alt="BMI Calaulator" style="width:100%">
+        <div class="container">
+          <form action="https://leonlee603.github.io/BMI_Calculator/" method="get">
+            <p><button class="button" type="submit">VISIT</button></p>
+          </form>
+          <h2>BMI Calculator</h2>
+          <p class="title">HTML|CSS|JavaScript</p>
+          <div id="project_info">
+          <p>BMI Calculator included some CSS animation, JavaScript for input validation and
+            the calculation for the BMI result.
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- To Do List -->
+    <div class="column">
+      <div class="card">
+        <img src="image/todolist.jpg" alt="To Do List" style="width:100%">
+        <div class="container">
+          <form action="https://leonlee603.github.io/To_Do_List/" method="get">
+            <p><button class="button" type="submit">VISIT</button></p>
+          </form>
+          <h2>To Do List</h2>
+          <p class="title">HTML|CSS|JavaScript|jQuery</p>
+          <div id="project_info">
+          <p> This To Do list is mainly created by jQuery for different animation, 
+            like changing attributes and toggling class. Also including functions for
+            adding tasks and update the counter for number of task.
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Quote Generator -->
+    <div class="column">
+      <div class="card">
+        <img src="image/quotegenerator.jpg" alt="Quote Generator" style="width:100%">
+        <div class="container">
+          <form action="https://leonlee603.github.io/Random_Quote/" method="get">
+            <p><button class="button" type="submit">VISIT</button></p>
+          </form>
+          <h2>Quote Generator</h2>
+          <p class="title">HTML|CSS|JavaScript|jQuery</p>
+          <p>The Generator included an array for storing quotes, using random number to 
+            select quote randomly. And I've also added a Background color switch created
+            by jQuery for changing background color.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="project-row">
+    <!-- My Notes App -->
+    <div class="column">
+      <div class="card">
+        <img src="image/mynotesapp.jpg" alt="My Notes App" style="width:100%">
+        <div class="container">
+          <form action="https://leonlee-my-notes.herokuapp.com/" method="get">
+            <p><button class="button" type="submit">VISIT</button></p>
+          </form>
+          <h2>My Notes App</h2>
+          <p class="title">Python|Django</p>
+          <div id="project_info">
+          <p>My Notes App is a Python web application created by using Django 
+            frame work. App's functions including create account, sign in and out, 
+            User can also take notes in any folder they have created. All the 
+            notes and folders can be edited and deleted anytime and anywhere.
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- My Website -->
+    <div class="column">
+      <div class="card">
+        <img src="image/myweb.jpg" alt="My Website" style="width:100%">
+        <div class="container">
+          <form action="https://leonlee603.github.io/" method="get">
+            <p><button class="button" type="submit">VISIT</button></p>
+          </form>
+          <h2>My website</h2>
+          <p class="title">HTML|CSS|JavaScript</p>
+          <div id="project_info">
+          <p> A personal website that introduces myself and showcases my portfolio. This 
+            responsive website is created by using HTML to build its content, along with 
+            CSS and JavaScript for customising the design that fits wide desktop browser 
+            as well as small smartphone screen.
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- My GitHub -->
+    <div class="column">
+      <div class="card">
+        <img src="image/github.jpg" alt="My GitHub" style="width:100%">
+        <div class="container">
+          <form action="https://github.com/leonlee603" method="get">
+            <p><button class="button" type="submit">VISIT</button></p>
+          </form>
+          <h2>My GitHub</h2>
+          <p class="title">GitHub</p>
+          <p>My GitHub contains some of my small projects like "Hangman" and
+             "Number Guessing", which help me to understand some basic concepts by practice.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- *************** Footer *************** -->
+  <div class="footer">
+    <p></p>
+  </div>
+  
+  <script src="js/stickyNavbar.js"></script> 
+  <script src="js/slideshow.js"></script>
+  <script>
+    // *************** Footer-Copyright statment *************** 
+    let date = new Date();
+    let year = date.getFullYear();
+    let elYear = document.querySelector(".footer p")
+    elYear.innerHTML = "© " + year + " All Rights Reserved."
+  </script>
+</body>
+</html>
