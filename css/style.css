@@ -9,6 +9,9 @@ body {
 .btn {
     border-radius: 20px;
 }
+.btn:focus {
+    box-shadow: none;
+}
 .hoverEffect:hover {
     transform: translateY(-4px);
     transition-duration: 0.5s;
