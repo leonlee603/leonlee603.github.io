@@ -98,6 +98,93 @@
                 <div class="container">
                     <!-- ********** 1st row of Portfolio ********** -->
                     <div class="row justify-content-center">
+                        <!-- Portfolio - House Rental -->
+                        <div class="col-md-4 mb-5">
+                            <div class="card  bg-transparent">
+                                <div class="imgEffect rounded SR_portfolioRow1">
+                                    <img class="card-img-top" src="images/house_rental.jpeg" alt="House Rental">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">House Rental</h5>
+                                    <p class="card-text">HTML | CSS | JavaScript | Node.js | Mongo</p>
+                                    <!-- Button to Open the Modal -->
+                                    <button type="button" class="btn btn-secondary btn-sm SR_portfolioRow_btn" data-toggle="modal" data-target="#myPortfolio1">
+                                        <i class="far fa-info-square"></i>
+                                        &nbsp;Info
+                                    </button>
+                                    <!-- The Modal -->
+                                    <div class="modal fade" id="myPortfolio1" tabindex='-1'>
+                                        <div class="modal-dialog modal-md modal-dialog-centered modal-dialog-scrollable">
+                                            <div class="modal-content">
+                                                <!-- Modal Header -->
+                                                <div class="modal-header">
+                                                <h4 class="modal-title">House Rental</h4>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                </div>
+                                                <!-- Modal body -->
+                                                <div class="modal-body ">
+                                                    <p>HTML | CSS | JavaScript | Node.js | Mongo | Bootstrap</p>
+                                                    <p>THe frontend of the website is created by HTML, CSS, Javascript, Bootstrap and EJS. The backend is build with node.js with the Express library.</p>
+                                                    <p>It provide the basic CRUD functions, with RESTful routes.</p>
+                                                    <p>The database is created by Mongo with Mongoose library. Data stored in the database are including User's information, House's information and the reviews.</p>
+                                                    <p>The create post and leaving review functions are limited for only user with authentication. And only the authorized user - the one who create the post or review, can edit or delete them.</p>
+                                                </div>
+                                                <!-- Modal footer -->
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- End of modal -->
+                                    <!-- Button of Demo and Source Code -->
+                                    <a href="https://whispering-shelf-04113.herokuapp.com/" class="btn btn-secondary btn-sm SR_portfolioRow_btn"><i class="far fa-play-circle"></i>&nbsp;Demo</a>
+                                </div> <!-- End of card-body -->
+                            </div>
+                        </div> <!-- End of Portfolio - House Rental -->
+                        <!-- Portfolio - To Do List -->
+                        <div class="col-md-4 mb-5">
+                            <div class="card  bg-transparent">
+                                <div class="imgEffect rounded SR_portfolioRow1">
+                                    <img class="card-img-top" src="images/to_do_list.jpg" alt="To Do List">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">To Do List</h5>
+                                    <p class="card-text">HTML | CSS | JavaScript | jQuery</p>
+                                    <!-- Button to Open the Modal -->
+                                    <button type="button" class="btn btn-secondary btn-sm SR_portfolioRow_btn" data-toggle="modal" data-target="#myPortfolio2">
+                                        <i class="far fa-info-square"></i>
+                                        &nbsp;Info
+                                    </button>
+                                    <!-- The Modal -->
+                                    <div class="modal fade" id="myPortfolio2" tabindex='-1'>
+                                        <div class="modal-dialog modal-sm modal-dialog-centered modal-dialog-scrollable">
+                                            <div class="modal-content">
+                                                <!-- Modal Header -->
+                                                <div class="modal-header">
+                                                <h4 class="modal-title">To Do List</h4>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                </div>
+                                                <!-- Modal body -->
+                                                <div class="modal-body ">
+                                                    <p>HTML | CSS | JavaScript | jQuery</p>
+                                                    <p> The data of this To Do list is stored in the browser's local storage, 
+                                                        which will not be deleted when the browser is closed. Also there is a  
+                                                        counter to keep track of the total number of incomplete task.
+                                                    </p>
+                                                </div>
+                                                <!-- Modal footer -->
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- End of modal -->
+                                    <!-- Button of Demo and Source Code -->
+                                    <a href="https://leonlee603.github.io/To_Do_List/" class="btn btn-secondary btn-sm SR_portfolioRow_btn"><i class="far fa-play-circle"></i>&nbsp;Demo</a>
+                                    <a href="https://github.com/leonlee603/To_Do_List" class="btn btn-secondary btn-sm SR_portfolioRow_btn"><i class="far fa-code"></i>&nbsp;Code</a>
+                                </div> <!-- End of card-body -->
+                            </div>
+                        </div> <!-- End of Portfolio - To Do List -->
                         <!-- Portfolio - PHP Photo Album -->
                         <div class="col-md-4 mb-5">
                             <div class="card  bg-transparent">
@@ -108,12 +195,12 @@
                                     <h5 class="card-title">PHP Photo Album</h5>
                                     <p class="card-text">HTML | CSS | Bootstrap | PHP | MySQL</p>
                                     <!-- Button to Open the Modal -->
-                                    <button type="button" class="btn btn-secondary btn-sm SR_portfolioRow_btn" data-toggle="modal" data-target="#phpPhotoAlbum">
+                                    <button type="button" class="btn btn-secondary btn-sm SR_portfolioRow_btn" data-toggle="modal" data-target="#myPortfolio3">
                                         <i class="far fa-info-square"></i>
                                         &nbsp;Info
                                     </button>
                                     <!-- The Modal -->
-                                    <div class="modal fade" id="phpPhotoAlbum" tabindex='-1'>
+                                    <div class="modal fade" id="myPortfolio3" tabindex='-1'>
                                         <div class="modal-dialog modal-md modal-dialog-centered modal-dialog-scrollable">
                                             <div class="modal-content">
                                                 <!-- Modal Header -->
@@ -182,35 +269,42 @@
                                 </div> <!-- End of card-body -->
                             </div>
                         </div> <!-- End of Portfolio - PHP Photo Album -->
-                        <!-- Portfolio - To Do List -->
+                    </div> <!-- ********** End of 1st row of Portfolio ********** -->
+
+                    <!-- ********** 2nd row of Portfolio ********** -->
+                    <div class="row justify-content-center">
+                        <!-- Portfolio - Weather Today -->
                         <div class="col-md-4 mb-5">
                             <div class="card  bg-transparent">
                                 <div class="imgEffect rounded SR_portfolioRow1">
-                                    <img class="card-img-top" src="images/to_do_list.jpg" alt="To Do List">
+                                    <img class="card-img-top" src="images/weather.jpeg" alt="Weather Today">
                                 </div>
                                 <div class="card-body text-center">
-                                    <h5 class="card-title">To Do List</h5>
-                                    <p class="card-text">HTML | CSS | JavaScript | jQuery</p>
+                                    <h5 class="card-title">Today's Weather</h5>
+                                    <p class="card-text">HTML | CSS | JavaScript | Bootstrap</p>
                                     <!-- Button to Open the Modal -->
-                                    <button type="button" class="btn btn-secondary btn-sm SR_portfolioRow_btn" data-toggle="modal" data-target="#myPortfolio1">
+                                    <button type="button" class="btn btn-secondary btn-sm SR_portfolioRow_btn" data-toggle="modal" data-target="#myPortfolio4">
                                         <i class="far fa-info-square"></i>
                                         &nbsp;Info
                                     </button>
                                     <!-- The Modal -->
-                                    <div class="modal fade" id="myPortfolio1" tabindex='-1'>
+                                    <div class="modal fade" id="myPortfolio4" tabindex='-1'>
                                         <div class="modal-dialog modal-sm modal-dialog-centered modal-dialog-scrollable">
                                             <div class="modal-content">
                                                 <!-- Modal Header -->
                                                 <div class="modal-header">
-                                                <h4 class="modal-title">To Do List</h4>
+                                                <h4 class="modal-title">Today's Weather</h4>
                                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                                                 </div>
                                                 <!-- Modal body -->
                                                 <div class="modal-body ">
-                                                    <p>HTML | CSS | JavaScript | jQuery</p>
-                                                    <p> The data of this To Do list is stored in the browser's local storage, 
-                                                        which will not be deleted when the browser is closed. Also there is a  
-                                                        counter to keep track of the total number of incomplete task.
+                                                    <p>HTML | CSS | JavaScript | Bootstrap</p>
+                                                    <p> This is a weather app that will show the weather, temperature and tell user 
+                                                        whether is daytime ot nighttime at the location they search.
+                                                        The data of the city and weather information are fetch from AccuWeather api.<br>
+                                                        This is an object oriented program(OOP) which its' functions are mainly divided into 2 classes.
+                                                        class WeatherAPI is responsible for fetching the city and weather information from the AccuWeather api.
+                                                        class UI is responsible for rendering the information to the page.
                                                     </p>
                                                 </div>
                                                 <!-- Modal footer -->
@@ -221,11 +315,105 @@
                                         </div>
                                     </div> <!-- End of modal -->
                                     <!-- Button of Demo and Source Code -->
-                                    <a href="https://leonlee603.github.io/To_Do_List/" class="btn btn-secondary btn-sm SR_portfolioRow_btn"><i class="far fa-play-circle"></i>&nbsp;Demo</a>
-                                    <a href="https://github.com/leonlee603/To_Do_List" class="btn btn-secondary btn-sm SR_portfolioRow_btn"><i class="far fa-code"></i>&nbsp;Code</a>
+                                    <a href="https://leonlee603.github.io/Weather_Today/" class="btn btn-secondary btn-sm SR_portfolioRow_btn"><i class="far fa-play-circle"></i>&nbsp;Demo</a>
+                                    <a href="https://github.com/leonlee603/Weather_Today" class="btn btn-secondary btn-sm SR_portfolioRow_btn"><i class="far fa-code"></i>&nbsp;Code</a>
+                                </div>
+                            </div>
+                        </div> <!-- End of Portfolio - Weather Today -->
+                        <!-- Portfolio - BMI Calculator -->
+                        <div class="col-md-4 mb-5">
+                            <div class="card  bg-transparent">
+                                <div class="imgEffect rounded SR_portfolioRow2">
+                                    <img class="card-img-top" src="images/bmi_calculator.jpg" alt="HTML|CSS|JavaScript">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">BMI Calculator</h5>
+                                    <p class="card-text">HTML | CSS | JavaScript</p>
+                                    <!-- Button to Open the Modal -->
+                                    <button type="button" class="btn btn-secondary btn-sm SR_portfolioRow_button SR_portfolioRow_btn" data-toggle="modal" data-target="#myPortfolio5">
+                                        <i class="far fa-info-square"></i>
+                                        &nbsp;Info
+                                    </button>
+                                    <!-- The Modal -->
+                                    <div class="modal fade" id="myPortfolio5" tabindex='-1'>
+                                        <div class="modal-dialog modal-sm modal-dialog-centered modal-dialog-scrollable">
+                                            <div class="modal-content">
+                                                <!-- Modal Header -->
+                                                <div class="modal-header">
+                                                <h4 class="modal-title">BMI Calculator</h4>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                </div>
+                                                <!-- Modal body -->
+                                                <div class="modal-body ">
+                                                    <p>HTML | CSS | JavaScript</p>
+                                                    <p> BMI Calculator included some CSS animation, JavaScript for input validation and
+                                                        the calculation for the BMI result.
+                                                    </p>
+                                                </div>
+                                                <!-- Modal footer -->
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- End of modal -->
+                                    <!-- Button of Demo and Source Code -->
+                                    <a href="https://leonlee603.github.io/BMI_Calculator/" class="btn btn-secondary btn-sm SR_portfolioRow_btn"><i class="far fa-play-circle"></i>&nbsp;Demo</a>
+                                    <a href="https://github.com/leonlee603/BMI_Calculator" class="btn btn-secondary btn-sm SR_portfolioRow_btn"><i class="far fa-code"></i>&nbsp;Code</a>
                                 </div> <!-- End of card-body -->
                             </div>
-                        </div> <!-- End of Portfolio - To Do List -->
+                        </div> <!-- End of Portfolio - BMI Calculator -->
+                        <!-- Portfolio - Github Users Finder -->
+                        <div class="col-md-4 mb-5">
+                            <div class="card  bg-transparent">
+                                <div class="imgEffect rounded SR_portfolioRow2">
+                                    <img class="card-img-top" src="images/github_user_finder.jpeg" alt="GitHub Users Finder">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">GitHub Users Finder</h5>
+                                    <p class="card-text">HTML | CSS | JavaScript | Bootstrap</p>
+                                    <!-- Button to Open the Modal -->
+                                    <button type="button" class="btn btn-secondary btn-sm SR_portfolioRow_btn" data-toggle="modal" data-target="#myPortfolio6">
+                                        <i class="far fa-info-square"></i>
+                                        &nbsp;Info
+                                    </button>
+                                    <!-- The Modal -->
+                                    <div class="modal fade" id="myPortfolio6" tabindex='-1'>
+                                        <div class="modal-dialog modal-sm modal-dialog-centered modal-dialog-scrollable">
+                                            <div class="modal-content">
+                                                <!-- Modal Header -->
+                                                <div class="modal-header">
+                                                <h4 class="modal-title">GitHub Users Finder</h4>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                </div>
+                                                <!-- Modal body -->
+                                                <div class="modal-body ">
+                                                    <p>HTML | CSS | JavaScript | Bootstrap</p>
+                                                    <p> This page is created for searching a user in GitHub. 
+                                                        The profile of the user and user's latest 5 repositories will be shown on the page 
+                                                        if the user exist. The data of user information are fetch from the GitHub api.<br>
+                                                        This is an object oriented program(OOP) which its' functions are mainly divided into 2 classes.
+                                                        class Github is responsible for fetching the user's profile and repositories from the GitHub api.
+                                                        class UI is responsible for rendering the information to the page.
+                                                    </p>
+                                                </div>
+                                                <!-- Modal footer -->
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- End of modal -->
+                                    <!-- Button of Demo and Source Code -->
+                                    <a href="https://leonlee603.github.io/GitHub_User_Finder/" class="btn btn-secondary btn-sm SR_portfolioRow_btn"><i class="far fa-play-circle"></i>&nbsp;Demo</a>
+                                    <a href="https://github.com/leonlee603/GitHub_User_Finder" class="btn btn-secondary btn-sm SR_portfolioRow_btn"><i class="far fa-code"></i>&nbsp;Code</a>
+                                </div>
+                            </div>
+                        </div> <!-- End of Portfolio - Github Users Finder -->
+                    </div> <!-- ********** End of 2nd row of Portfolio ********** -->
+
+                    <!-- ********** 3rd row of Portfolio ********** -->
+                    <div class="row justify-content-center">
                         <!-- Portfolio - Typing Speed Test -->
                         <div class="col-md-4 mb-5">
                             <div class="card  bg-transparent">
@@ -236,12 +424,12 @@
                                     <h5 class="card-title">Typing Speed Test</h5>
                                     <p class="card-text">HTML | CSS | JavaScript | AJAX</p>
                                     <!-- Button to Open the Modal -->
-                                    <button type="button" class="btn btn-secondary btn-sm SR_portfolioRow_btn" data-toggle="modal" data-target="#myPortfolio2">
+                                    <button type="button" class="btn btn-secondary btn-sm SR_portfolioRow_btn" data-toggle="modal" data-target="#myPortfolio7">
                                         <i class="far fa-info-square"></i>
                                         &nbsp;Info
                                     </button>
                                     <!-- The Modal -->
-                                    <div class="modal fade" id="myPortfolio2" tabindex='-1'>
+                                    <div class="modal fade" id="myPortfolio7" tabindex='-1'>
                                         <div class="modal-dialog modal-sm modal-dialog-centered modal-dialog-scrollable">
                                             <div class="modal-content">
                                                 <!-- Modal Header -->
@@ -270,98 +458,6 @@
                                 </div>
                             </div>
                         </div> <!-- End of Portfolio - Typing Speed Test -->
-                    </div> <!-- ********** End of 1st row of Portfolio ********** -->
-
-                    <!-- ********** 2nd row of Portfolio ********** -->
-                    <div class="row justify-content-center">
-                        <!-- Portfolio - F1 Driver 2020 -->
-                        <div class="col-md-4 mb-5">
-                            <div class="card  bg-transparent">
-                                <div class="imgEffect rounded SR_portfolioRow1">
-                                    <img class="card-img-top" src="images/f1_driver2020.jpg" alt="F1 Driver 2020">
-                                </div>
-                                <div class="card-body text-center">
-                                    <h5 class="card-title">F1 Driver 2020</h5>
-                                    <p class="card-text">HTML | CSS | JavaScript | jQuery | AJAX</p>
-                                    <!-- Button to Open the Modal -->
-                                    <button type="button" class="btn btn-secondary btn-sm SR_portfolioRow_btn" data-toggle="modal" data-target="#myPortfolio3">
-                                        <i class="far fa-info-square"></i>
-                                        &nbsp;Info
-                                    </button>
-                                    <!-- The Modal -->
-                                    <div class="modal fade" id="myPortfolio3" tabindex='-1'>
-                                        <div class="modal-dialog modal-sm modal-dialog-centered modal-dialog-scrollable">
-                                            <div class="modal-content">
-                                                <!-- Modal Header -->
-                                                <div class="modal-header">
-                                                <h4 class="modal-title">F1 Driver 2020</h4>
-                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                </div>
-                                                <!-- Modal body -->
-                                                <div class="modal-body ">
-                                                    <p>HTML | CSS | JavaScript | jQuery | AJAX</p>
-                                                    <p> F1 Driver 2020 is a search page for getting information of drivers in Formula 1.
-                                                        When user's input are included within the driver's information like name, team or
-                                                        biography, the data shown on the page will be filtered. All the data are stored in JSON
-                                                        and retrieved by AJAX request.
-                                                    </p>
-                                                </div>
-                                                <!-- Modal footer -->
-                                                <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> <!-- End of modal -->
-                                    <!-- Button of Demo and Source Code -->
-                                    <a href="https://leonlee603.github.io/F1_Driver_Searcher/" class="btn btn-secondary btn-sm SR_portfolioRow_btn"><i class="far fa-play-circle"></i>&nbsp;Demo</a>
-                                    <a href="https://github.com/leonlee603/F1_Driver_Searcher" class="btn btn-secondary btn-sm SR_portfolioRow_btn"><i class="far fa-code"></i>&nbsp;Code</a>
-                                </div>
-                            </div>
-                        </div> <!-- End of Portfolio - F1 Driver 2020 -->
-                        <!-- Portfolio - BMI Calculator -->
-                        <div class="col-md-4 mb-5">
-                            <div class="card  bg-transparent">
-                                <div class="imgEffect rounded SR_portfolioRow2">
-                                    <img class="card-img-top" src="images/bmi_calculator.jpg" alt="HTML|CSS|JavaScript">
-                                </div>
-                                <div class="card-body text-center">
-                                    <h5 class="card-title">BMI Calculator</h5>
-                                    <p class="card-text">HTML | CSS | JavaScript</p>
-                                    <!-- Button to Open the Modal -->
-                                    <button type="button" class="btn btn-secondary btn-sm SR_portfolioRow_button SR_portfolioRow_btn" data-toggle="modal" data-target="#myPortfolio4">
-                                        <i class="far fa-info-square"></i>
-                                        &nbsp;Info
-                                    </button>
-                                    <!-- The Modal -->
-                                    <div class="modal fade" id="myPortfolio4" tabindex='-1'>
-                                        <div class="modal-dialog modal-sm modal-dialog-centered modal-dialog-scrollable">
-                                            <div class="modal-content">
-                                                <!-- Modal Header -->
-                                                <div class="modal-header">
-                                                <h4 class="modal-title">BMI Calculator</h4>
-                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                </div>
-                                                <!-- Modal body -->
-                                                <div class="modal-body ">
-                                                    <p>HTML | CSS | JavaScript</p>
-                                                    <p> BMI Calculator included some CSS animation, JavaScript for input validation and
-                                                        the calculation for the BMI result.
-                                                    </p>
-                                                </div>
-                                                <!-- Modal footer -->
-                                                <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> <!-- End of modal -->
-                                    <!-- Button of Demo and Source Code -->
-                                    <a href="https://leonlee603.github.io/BMI_Calculator/" class="btn btn-secondary btn-sm SR_portfolioRow_btn"><i class="far fa-play-circle"></i>&nbsp;Demo</a>
-                                    <a href="https://github.com/leonlee603/BMI_Calculator" class="btn btn-secondary btn-sm SR_portfolioRow_btn"><i class="far fa-code"></i>&nbsp;Code</a>
-                                </div> <!-- End of card-body -->
-                            </div>
-                        </div> <!-- End of Portfolio - BMI Calculator -->
                         <!-- Portfolio - My website -->
                         <div class="col-md-4 mb-5">
                             <div class="card  bg-transparent">
@@ -372,12 +468,12 @@
                                     <h5 class="card-title">My website</h5>
                                     <p class="card-text">HTML | CSS | JavaScript | Bootstrap</p>
                                     <!-- Button to Open the Modal -->
-                                    <button type="button" class="btn btn-secondary btn-sm SR_portfolioRow_btn" data-toggle="modal" data-target="#myPortfolio5">
+                                    <button type="button" class="btn btn-secondary btn-sm SR_portfolioRow_btn" data-toggle="modal" data-target="#myPortfolio8">
                                         <i class="far fa-info-square"></i>
                                         &nbsp;Info
                                     </button>
                                     <!-- The Modal -->
-                                    <div class="modal fade" id="myPortfolio5" tabindex='-1'>
+                                    <div class="modal fade" id="myPortfolio8" tabindex='-1'>
                                         <div class="modal-dialog modal-sm modal-dialog-centered modal-dialog-scrollable">
                                             <div class="modal-content">
                                                 <!-- Modal Header -->
@@ -407,10 +503,6 @@
                                 </div>
                             </div>
                         </div> <!-- End of Portfolio - My website -->
-                    </div> <!-- ********** End of 2nd row of Portfolio ********** -->
-
-                    <!-- ********** 3rd row of Portfolio ********** -->
-                    <div class="row justify-content-center">
                         <!-- Portfolio - GitHub -->
                         <div class="col-md-4 mb-5">
                             <div class="card  bg-transparent">
@@ -421,12 +513,12 @@
                                     <h5 class="card-title">My GitHub</h5>
                                     <p class="card-text">GitHub</p>
                                     <!-- Button to Open the Modal -->
-                                    <button type="button" class="btn btn-secondary btn-sm SR_portfolioRow_btn" data-toggle="modal" data-target="#myPortfolio6">
+                                    <button type="button" class="btn btn-secondary btn-sm SR_portfolioRow_btn" data-toggle="modal" data-target="#myPortfolio9">
                                         <i class="far fa-info-square"></i>
                                         &nbsp;Info
                                     </button>
                                     <!-- The Modal -->
-                                    <div class="modal fade" id="myPortfolio6" tabindex='-1'>
+                                    <div class="modal fade" id="myPortfolio9" tabindex='-1'>
                                         <div class="modal-dialog modal-sm modal-dialog-centered modal-dialog-scrollable">
                                             <div class="modal-content">
                                                 <!-- Modal Header -->
@@ -458,7 +550,7 @@
             </div>
 
             <!-- Skills set -->
-            <div class="row text-center">
+            <!-- <div class="row text-center">
                 <div class="col-12 mt-3">
                     <p class="lead">Languages used in above projects.</p>
                 </div>
@@ -492,7 +584,7 @@
                     <img src="images/icon_MySQL.png" alt="MySQL Logo" height="80px" height="80px" class="mt-3">
                     <h5>MySQL</h5>
                 </div>
-            </div>
+            </div> -->
         </div> 
     </div> <!-- *************** End of Portfolio *************** -->
 
@@ -566,7 +658,7 @@
                             </div>
                         </div> <!-- End of modal -->
                         <!-- Button to Download CV -->
-                        <a href="https://drive.google.com/file/d/1lTVe2PJaOSj066-SBhoeZuE6ahwZkqbT/view?usp=sharing" target="_blank" class="btn btn-secondary px-4 py-2 btn-sm SR_about_button"><i class="far fa-file-user"></i>&nbsp;Download CV</a>
+                        <a href="https://drive.google.com/file/d/1IjXyO7i-xZDTHVWEoe-tEwtn6T04ed5M/view?usp=sharing" target="_blank" class="btn btn-secondary px-4 py-2 btn-sm SR_about_button"><i class="far fa-file-user"></i>&nbsp;Download CV</a>
 				</div>
 			</div>
 		</div>
@@ -608,8 +700,8 @@
                     </div>
                     <div class="jumbotron pt-3 pb-2 hoverEffect shadowEffect">
                         <div class="resume-item">
-                            <span class="date"><i class="fas fa-briefcase"></i>&nbsp;&nbsp;<span class="sub">Experience</span> : &nbsp;Jul 2017 - Dec 2019</span>
-                            <h5>Van Gogh Senses Limited</h5>
+                            <span class="date"><i class="fas fa-briefcase"></i>&nbsp;&nbsp;<span class="sub">Experience</span> : &nbsp;Feb 2020 - Jul 2021</span>
+                            <h5>Grace A.J. Manufacturing Co., Ltd.</h5>
                             <p>Merchandiser</p>
                         </div>
                     </div>
